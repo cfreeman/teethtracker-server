@@ -11,7 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110903234952) do
+ActiveRecord::Schema.define(:version => 20110904052352) do
+
+  create_table "device_movements", :force => true do |t|
+    t.string   "movement_type",       :default => "arrival"
+    t.string   "node",                :default => "unknown"
+    t.string   "device_bluetooth_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "devices", :force => true do |t|
     t.string   "bluetooth_id"

@@ -23,4 +23,16 @@ class DevicesController < ApplicationController
   def create
     redirect_to(:controller => "devices", :action => "index")
   end
+
+  def edit
+    redirect_to(:controller => "devices", :action => "index")
+  end
+
+  def update
+    redirect_to(:controller => "devices", :action => "index")
+  end
+
+  def destroy
+    redirect_to(:controller => "devices", :action => "index")
+  end
 end

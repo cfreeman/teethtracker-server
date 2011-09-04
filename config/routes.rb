@@ -1,5 +1,5 @@
 Bluetracker::Application.routes.draw do
-  resources :devices
+  resources :devices, :device_movements
 
   root :to => "devices#index"
 
