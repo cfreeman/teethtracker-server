@@ -7,4 +7,20 @@ class DevicesController < ApplicationController
       format.json { render :json => @devices }
     end
   end
+
+  def show
+    redirect_to(:controller => "devices", :action => "index")
+  end
+
+  def new
+    @device = Device.new
+    @device.bluetooth_id = params[:bluetooth_id]
+    @device.save
+
+    redirect_to(:controller => "devices", :action => "index")
+  end
+
+  def create
+    redirect_to(:controller => "devices", :action => "index")
+  end
 end
