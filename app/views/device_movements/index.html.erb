@@ -1,0 +1,6 @@
+<h1>Device Movements:</h1>
+<ul>
+  <% @movements.each do |movement| %>
+    <li><%= movement.created_at %>: <%= movement.movement_type %> of <%= movement.device_bluetooth_id %> at <%= movement.node %></li>
+  <% end %>
+</ul>
