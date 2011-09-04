@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/devices_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/device.rb" afterPath="$PROJECT_DIR$/app/models/device.rb" />
     </list>
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="devices_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="devices_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.35539567">
+            <state line="13" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devices/show.html.erb">
+      <file leaf-file-name="device.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/device.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="3" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.08201439">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,6 +118,7 @@
         <option value="$PROJECT_DIR$/app/views/device/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/device.rb" />
       </list>
     </option>
   </component>
@@ -268,6 +269,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="devices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluetracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluetracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,23 +603,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="25" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -612,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devices/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
@@ -626,9 +624,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.35539567">
+        <state line="13" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.08201439">
           <folding />
         </state>
       </provider>
