@@ -25,8 +25,8 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.2, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v2.1.2, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="abstract (v1.0.0, Ruby SDK 1.9.2-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v0.9.2, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.5.7, Ruby SDK 1.9.2-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v0.9.2, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.6.6, Ruby SDK 1.9.2-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.2.3, Ruby SDK 1.9.2-p0) [gem]" level="application" />
   </component>
