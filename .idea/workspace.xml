@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devices/index.html.erb" afterPath="$PROJECT_DIR$/app/views/devices/index.html.erb" />
-    </list>
+    <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="" />
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -609,7 +607,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="22" width="1920" height="1077" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
