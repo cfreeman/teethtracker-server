@@ -5,6 +5,7 @@ class DevicesController < ApplicationController
     respond_to do |format|
       format.html
       format.json { render :json => @devices }
+      format.xml { render :xml => @devices }
     end
   end
 
@@ -15,6 +16,7 @@ class DevicesController < ApplicationController
   def new
     @device = Device.new
     @device.bluetooth_id = params[:bluetooth_id]
+    @device.device_name = params[:name]
     @device.save
 
     redirect_to(:controller => "devices", :action => "index")

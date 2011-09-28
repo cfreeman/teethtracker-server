@@ -5,6 +5,7 @@ class DeviceMovementsController < ApplicationController
     respond_to do |format|
       format.html
       format.json { render :json => @movements }
+      format.xml { render :xml => @movements }
     end
   end
 
