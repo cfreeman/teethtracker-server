@@ -1,6 +1,6 @@
 class DeviceMovementsController < ApplicationController
   def index
-    @movements = DeviceMovement.all
+    @movements = DeviceMovement.order("id DESC").all
 
     respond_to do |format|
       format.html
