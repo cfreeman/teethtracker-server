@@ -9,6 +9,15 @@ class DeviceMovementsController < ApplicationController
     end
   end
 
+  def currently_at_node
+    @movements = DeviceMovement.current_devices(params[:node])
+
+    respond_to do |format|
+      format.json {render :json => @movements}
+      format.xml {render :xml => @movements}
+    end
+  end
+
   def show
     redirect_to(:controller => "device_movements", :action => "index")
   end

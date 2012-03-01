@@ -3,6 +3,8 @@ Bluetracker::Application.routes.draw do
 
   root :to => "devices#index"
 
+  match 'device_movements/:node/current' => 'device_movements#currently_at_node', :as => :node
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
