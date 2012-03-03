@@ -7,7 +7,7 @@ class Device < ActiveRecord::Base
 
   def device_number
     number =  read_attribute(:device_number)
-    "0" + number[3, number]
+    "0" + number[3, number.length]
   end
 
   def device_international_number

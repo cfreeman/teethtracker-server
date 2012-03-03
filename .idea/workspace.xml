@@ -73,7 +73,7 @@
       <file leaf-file-name="device.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/device.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="208" selection-end="208" vertical-scroll-proportion="0.20038168">
+            <state line="8" column="44" selection-start="253" selection-end="253" vertical-scroll-proportion="0.21276596">
               <folding />
             </state>
           </provider>
@@ -92,15 +92,6 @@
         <entry file="file://$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20120301084729_add_phone_number.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -233,6 +224,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluetracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teethtracker-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,23 +653,6 @@
         <state line="6" column="40" selection-start="157" selection-end="193" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../twilio-test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="10" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" />
@@ -687,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="76" selection-start="144" selection-end="144" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
@@ -701,9 +686,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="76" selection-start="144" selection-end="144" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.2576336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/device.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="208" selection-end="208" vertical-scroll-proportion="0.20038168">
+        <state line="8" column="44" selection-start="253" selection-end="253" vertical-scroll-proportion="0.21276596">
           <folding />
         </state>
       </provider>
