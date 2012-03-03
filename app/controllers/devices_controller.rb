@@ -22,7 +22,7 @@ class DevicesController < ApplicationController
     end
 
     @device.device_name = params[:name]
-    @device.device_number = params[:number]
+    @device.local_device_number = params[:number]
     @device.save
 
     redirect_to(:controller => "devices", :action => "index")

@@ -25,8 +25,9 @@ ActiveRecord::Schema.define(:version => 20120301084729) do
     t.string   "bluetooth_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "device_name",   :default => "unknown"
-    t.string   "device_number", :default => "unknown"
+    t.string   "device_name",                 :default => "unknown"
+    t.string   "local_device_number",         :default => "unknown"
+    t.string   "international_device_number", :default => "unknown"
   end
 
 end
