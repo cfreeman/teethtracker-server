@@ -5,6 +5,7 @@ gem 'pg'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'rspec-rails'
 end
 
 # Use unicorn as the web server

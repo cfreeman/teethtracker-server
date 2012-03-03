@@ -1,6 +1,6 @@
 <h1>Registered Devices:</h1>
 <ul>
   <% @devices.each do |device| %>
-    <li><%= device.bluetooth_id %> - <%= device.device_name %></li>
+    <li><%= device.bluetooth_id %> - <%= device.device_name %> - <%= device.device_number %></li>
   <% end %>
 </ul>
