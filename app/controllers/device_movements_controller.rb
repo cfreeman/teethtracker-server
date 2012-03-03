@@ -29,6 +29,8 @@ class DeviceMovementsController < ApplicationController
     @movement.device_bluetooth_id = params[:bluetooth_id]
     @movement.save
 
+
+
     redirect_to(:controller => "device_movements", :action => "index")
   end
 
