@@ -3,16 +3,10 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.10'
 gem 'pg'
 
-<<<<<<< HEAD
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails'
 end
-=======
-#group :development, :test do
-#  gem 'sqlite3'
-#end
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+
 
 # Use unicorn as the web server
 # gem 'unicorn'

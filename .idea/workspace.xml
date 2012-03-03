@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="" />
-=======
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bluetracker.iml" afterPath="$PROJECT_DIR$/.idea/bluetracker.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/device_movement.rb" afterPath="$PROJECT_DIR$/app/models/device_movement.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/devices_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,28 +23,13 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DatabaseView">
-    <flatten value="false" />
-    <groupTables value="false" />
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="bluetracker" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
       <file leaf-file-name="devices_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="device_movements_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-=======
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
               <folding />
@@ -66,71 +37,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="3" column="97" selection-start="165" selection-end="165" vertical-scroll-proportion="0.09">
-=======
-            <state line="7" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+            <state line="3" column="97" selection-start="165" selection-end="165" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="device_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/device_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="49" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="94" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-=======
-      <file leaf-file-name="devices_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="48" selection-start="353" selection-end="353" vertical-scroll-proportion="0.45801526">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="7" column="19" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-=======
-            <state line="4" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+            <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.028625954">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-=======
-      <file leaf-file-name="device_movement.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="3" column="150" selection-start="226" selection-end="226" vertical-scroll-proportion="0.060573857">
-=======
-            <state line="6" column="40" selection-start="157" selection-end="193" vertical-scroll-proportion="0.0">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+            <state line="6" column="20" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,14 +85,7 @@
       <file leaf-file-name="device_movement.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-=======
-<<<<<<< HEAD
-            <state line="5" column="35" selection-start="223" selection-end="242" vertical-scroll-proportion="0.0">
-=======
-            <state line="4" column="6" selection-start="169" selection-end="206" vertical-scroll-proportion="0.0">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+            <state line="5" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,18 +113,12 @@
         <entry file="file://$PROJECT_DIR$/../twilio-test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="10" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
@@ -203,42 +127,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/Gemfile" />
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
-        <option value="$PROJECT_DIR$/app/controllers/device_controller.rb" />
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
         <option value="$PROJECT_DIR$/app/views/device/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20110904052352_create_device_movements.rb" />
         <option value="$PROJECT_DIR$/app/views/device_movements/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/device_movement.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110928001711_add_device_name.rb" />
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/app/views/devices/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
         <option value="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/app/models/device_movement.rb" />
-=======
         <option value="$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/models/device.rb" />
         <option value="$PROJECT_DIR$/test/unit/device_test.rb" />
         <option value="$PROJECT_DIR$/app/views/devices/index.html.erb" />
-=======
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -268,15 +172,7 @@
       <sortByType />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="Favorites" />
-=======
-<<<<<<< HEAD
-      <pane id="Favorites" />
-      <pane id="Scope" />
-=======
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
       <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -321,14 +217,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="unit" />
-=======
-              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,25 +236,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db" />
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluetracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teethtracker-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,11 +354,6 @@
     <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views/device_movements" />
-    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: bluetracker">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -684,24 +553,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="0" y="119" width="1920" height="1077" extended-state="0" />
-    <editor active="false" />
-=======
     <frame x="0" y="22" width="1280" height="705" extended-state="0" />
     <editor active="true" />
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33386752" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961783" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -758,219 +617,96 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Rakefile">
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/helpers/devices_helper.rb">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-=======
-    <entry file="file://$PROJECT_DIR$/README">
-=======
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/db/migrate/20110904052352_create_device_movements.rb">
-=======
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="6" selection-start="169" selection-end="206" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
-=======
-    <entry file="file://$PROJECT_DIR$/Rakefile">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/device_movements/index.html.erb">
-=======
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110928001711_add_device_name.rb">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.1830835">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/db/migrate/20110928001711_add_device_name.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="40" selection-start="157" selection-end="193" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="55" selection-start="123" selection-end="123" vertical-scroll-proportion="0.06291391">
+        <state line="5" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="82" selection-end="82" vertical-scroll-proportion="0.040685225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb">
-=======
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="474" selection-end="474" vertical-scroll-proportion="0.38650963">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-=======
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110904052352_create_device_movements.rb">
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../twilio-test.rb">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="12" column="10" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" />
-=======
-        <state line="7" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/device_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
           <folding />
         </state>
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="97" selection-start="165" selection-end="165" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="6" column="20" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="7" column="19" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-=======
-<<<<<<< HEAD
-        <state line="5" column="35" selection-start="223" selection-end="242" vertical-scroll-proportion="0.0">
-=======
-        <state line="4" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/test/unit/device_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-=======
-    <entry file="file://$PROJECT_DIR$/../twilio-test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="94" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-=======
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110928001711_add_device_name.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="157" selection-end="193" vertical-scroll-proportion="0.0">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-=======
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="97" selection-start="165" selection-end="165" vertical-scroll-proportion="0.09">
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="150" selection-start="226" selection-end="226" vertical-scroll-proportion="0.060573857">
-=======
-    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="353" selection-end="353" vertical-scroll-proportion="0.45801526">
->>>>>>> e707b77ea2fa8e3c9538603d4b43374f99e75514
->>>>>>> 813706c40c634626c5a66226ff82fd17e5795064
+        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.028625954">
           <folding />
         </state>
       </provider>
