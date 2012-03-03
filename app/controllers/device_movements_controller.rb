@@ -39,7 +39,7 @@ class DeviceMovementsController < ApplicationController
     @client.account.calls.create(
       :from => '+19138151163',
       :to => '+61439727186',
-      :url => 'http://http://teethtracker.heroku.com/station1.html'
+      :url => root_url + 'station1.html'
     )
 
     redirect_to(:controller => "device_movements", :action => "index")
