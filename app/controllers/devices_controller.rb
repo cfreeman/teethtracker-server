@@ -28,6 +28,11 @@ class DevicesController < ApplicationController
     redirect_to(:controller => "devices", :action => "index")
   end
 
+  def clear_database
+    DeviceMovement.delete_all
+    Device.delete_all
+  end
+
   def create
     redirect_to(:controller => "devices", :action => "index")
   end
