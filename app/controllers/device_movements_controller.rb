@@ -22,6 +22,19 @@ class DeviceMovementsController < ApplicationController
     redirect_to(:controller => "device_movements", :action => "index")
   end
 
+  def station1
+    @response = Twilio::TwiML::Response.new do |r|
+      r.Say 'hello there', :voice => 'woman'
+      r.Dial :callerId => '+14159992222' do |d|
+        d.Client 'jenny'
+      end
+    end
+
+    respond_to do |format|
+      format.all {render :xml => @response.text }
+    end
+  end
+
   def new
     @movement = DeviceMovement.new
     @movement.movement_type = params[:type]
@@ -39,7 +52,8 @@ class DeviceMovementsController < ApplicationController
     @client.account.calls.create(
       :from => '+19138151163',
       :to => '+61439727186',
-      :url => root_url + 'station1.html'
+      #:url => 'http://demo.twilio.com/welcome/'
+      :url => root_url + 'station1'
     )
 
     redirect_to(:controller => "device_movements", :action => "index")
