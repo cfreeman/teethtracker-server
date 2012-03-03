@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/device.rb" afterPath="$PROJECT_DIR$/app/models/device.rb" />
     </list>
     <ignored path="bluetracker.iws" />
@@ -92,7 +91,7 @@
       <file leaf-file-name="device.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/device.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="326" selection-end="326" vertical-scroll-proportion="0.24816176">
+            <state line="7" column="37" selection-start="247" selection-end="247" vertical-scroll-proportion="0.19301471">
               <folding />
             </state>
           </provider>
@@ -781,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/device.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="326" selection-end="326" vertical-scroll-proportion="0.24816176">
+        <state line="7" column="37" selection-start="247" selection-end="247" vertical-scroll-proportion="0.19301471">
           <folding />
         </state>
       </provider>

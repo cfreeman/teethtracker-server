@@ -5,7 +5,7 @@ class Device < ActiveRecord::Base
   def update_international_number
     number = read_attribute(:local_device_number)
 
-    unless number.nil?
+    unless number.nil? or number == ""
       write_attribute(:international_device_number, "+61" + number[1, number.length])
     end
   end
