@@ -2,7 +2,7 @@ class Device < ActiveRecord::Base
   validates :bluetooth_id, :uniqueness => true
 
   def device_number= (number)
-    write_attribute(:device_number, @device.device_number = "+61" + number[1, number.length])
+    write_attribute(:device_number, "+61" + number[1, number.length])
   end
 
   def device_number
