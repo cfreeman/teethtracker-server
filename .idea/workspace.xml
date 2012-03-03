@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/devices_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/device.rb" afterPath="$PROJECT_DIR$/app/models/device.rb" />
     </list>
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="devices_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.20038168">
+            <state line="26" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.45801526">
               <folding />
             </state>
           </provider>
@@ -73,7 +74,7 @@
       <file leaf-file-name="device.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/device.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+            <state line="5" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,10 +136,10 @@
         <option value="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb" />
-        <option value="$PROJECT_DIR$/app/models/device.rb" />
         <option value="$PROJECT_DIR$/test/unit/device_test.rb" />
         <option value="$PROJECT_DIR$/app/views/devices/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/device.rb" />
         <option value="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
       </list>
     </option>
@@ -696,14 +697,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/device.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+        <state line="5" column="3" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.20038168">
+        <state line="26" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.45801526">
           <folding />
         </state>
       </provider>
