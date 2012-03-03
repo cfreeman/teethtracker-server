@@ -14,7 +14,12 @@ class DevicesController < ApplicationController
   end
 
   def new
-    @device = Device.new
+    @device = Device.find_by_bluetooth_id(params[:bluetooth_id])
+
+    if @device.nil?
+      @device = Device.new
+    end
+
     @device.bluetooth_id = params[:bluetooth_id]
     @device.device_name = params[:name]
     @device.device_number = params[:number]
