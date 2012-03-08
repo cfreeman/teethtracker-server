@@ -71,8 +71,9 @@ class DeviceMovementsController < ApplicationController
     #Look up the device to use to make the call.
     device = Device.find_by_bluetooth_id(params[:bluetooth_id])
 
-    # put your own credentials here
-
+    # Put your twilio own credentials here
+    account_sid = 'AC31e6c16f74a6493da8725101e602d072'
+    auth_token = '4617d77a1eef5cf370bb984df416c679'
 
     unless device.nil?
       # set up a client to talk to the Twilio REST API
