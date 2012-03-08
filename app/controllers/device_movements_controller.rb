@@ -24,7 +24,7 @@ class DeviceMovementsController < ApplicationController
 
   def station1
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hi, this is test narrative', :voice => 'woman'
+      r.Say 'Hello. This is Kansas City calling. We have a little story that we would like to tell you.', :voice => 'man'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
