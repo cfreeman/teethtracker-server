@@ -46,6 +46,17 @@ class DevicesController < ApplicationController
   end
 
   def destroy
+    # Delete the device and the movements stored in the database.
+    devices = Device.find_all_by_bluetooth_id(params[:bluetooth_id])
+    devices.each do |device|
+      res = device.delete
+    end
+
+    device_movements = DeviceMovement.find_all_by_device_bluetooth_id(params[:bluetooth_id])
+    device_movements.each do |device_movement|
+      res = device_movement.delete
+    end
+
     redirect_to(:controller => "devices", :action => "index")
   end
 end

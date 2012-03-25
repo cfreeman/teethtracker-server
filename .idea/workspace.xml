@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bluetracker.iml" afterPath="$PROJECT_DIR$/.idea/bluetracker.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/devices_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="devices_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="devices_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+            <state line="48" column="65" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.5350734">
               <folding />
             </state>
           </provider>
@@ -37,7 +42,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="67" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+            <state line="13" column="72" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,10 +66,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device_movements_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="device_movements_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="65" selection-start="720" selection-end="720" vertical-scroll-proportion="0.18079096">
+            <state line="63" column="9" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="51" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/device_movement.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110928001711_add_device_name.rb" />
@@ -128,14 +141,15 @@
         <option value="$PROJECT_DIR$/test/unit/device_test.rb" />
         <option value="$PROJECT_DIR$/app/views/devices/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20120301084729_add_phone_number.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/devices/clear_database.erb" />
         <option value="$PROJECT_DIR$/app/models/device.rb" />
         <option value="$PROJECT_DIR$/public/station1.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/device_movements/station1.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/devices_controller.rb" />
       </list>
     </option>
   </component>
@@ -165,6 +179,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -354,8 +370,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -651,7 +665,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -730,11 +744,6 @@
         <state line="11" column="49" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110903234952_create_devices.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
@@ -745,35 +754,9 @@
         <state line="9" column="19" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devices/clear_database.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="33" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="67" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
@@ -781,9 +764,26 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="9" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/device.rb">
@@ -791,9 +791,23 @@
         <state line="7" column="37" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="65" selection-start="720" selection-end="720" vertical-scroll-proportion="0.18079096">
+        <state line="10" column="51" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="65" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.5350734">
           <folding />
         </state>
       </provider>

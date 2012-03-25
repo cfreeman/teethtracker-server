@@ -3,6 +3,7 @@ Bluetracker::Application.routes.draw do
 
   root :to => "devices#index"
 
+  match 'devices/:bluetooth_id/delete' => 'devices#destroy', :as => :destroy
   match 'clear-database' => "devices#clear_database", :as => :clear_database
   match 'device_movements/:node/current' => 'device_movements#currently_at_node', :as => :node
   match 'station1' => 'device_movements#station1', :as => :station1
