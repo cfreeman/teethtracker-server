@@ -9,12 +9,16 @@ class DeviceMovementsController < ApplicationController
     end
   end
 
-  def currently_at_node
-    @movements = DeviceMovement.current_devices(params[:node])
+  def currently_at
+    results = Hash.new
+    movements = DeviceMovement.node_names()
+    movements.each do |movement|
+      results[movement.node] = Device.find_by_bluetooth_id(DeviceMovement.current_devices(movement.node).first.device_bluetooth_id)
+    end
 
     respond_to do |format|
-      format.json {render :json => @movements}
-      format.xml {render :xml => @movements}
+      format.json {render :json => results}
+      format.xml {render :xml => results}
     end
   end
 

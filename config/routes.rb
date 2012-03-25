@@ -5,7 +5,7 @@ Bluetracker::Application.routes.draw do
 
   match 'devices/:bluetooth_id/delete' => 'devices#destroy', :as => :destroy
   match 'clear-database' => "devices#clear_database", :as => :clear_database
-  match 'device_movements/:node/current' => 'device_movements#currently_at_node', :as => :node
+  match 'currently_at' => 'device_movements#currently_at', :as => :currently_at
   match 'station1' => 'device_movements#station1', :as => :station1
 
   # The priority is based upon order of creation:
