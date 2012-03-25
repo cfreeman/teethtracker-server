@@ -13,7 +13,10 @@ class DeviceMovementsController < ApplicationController
     results = Hash.new
     movements = DeviceMovement.node_names()
     movements.each do |movement|
-      results[movement.node] = Device.find_by_bluetooth_id(DeviceMovement.current_devices(movement.node).first.device_bluetooth_id)
+      if results[movement.node].nil?
+        results[movement.node] = Array.new
+      end
+      results[movement.node].push(Device.find_by_bluetooth_id(DeviceMovement.current_devices(movement.node).first.device_bluetooth_id))
     end
 
     respond_to do |format|

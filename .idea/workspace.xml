@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/device_movement.rb" afterPath="$PROJECT_DIR$/app/models/device_movement.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +64,7 @@
       <file leaf-file-name="device_movements_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="118" selection-start="515" selection-end="515" vertical-scroll-proportion="0.325">
+            <state line="20" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.45">
               <folding />
             </state>
           </provider>
@@ -828,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="118" selection-start="515" selection-end="515" vertical-scroll-proportion="0.325">
+        <state line="20" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.45">
           <folding />
         </state>
       </provider>
