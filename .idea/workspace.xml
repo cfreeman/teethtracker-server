@@ -64,7 +64,7 @@
       <file leaf-file-name="device_movements_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.45">
+            <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.375">
               <folding />
             </state>
           </provider>
@@ -803,16 +803,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="7" column="34" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -826,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.45">
+        <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.375">
           <folding />
         </state>
       </provider>

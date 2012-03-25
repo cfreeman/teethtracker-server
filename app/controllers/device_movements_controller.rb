@@ -10,13 +10,17 @@ class DeviceMovementsController < ApplicationController
   end
 
   def currently_at
-    results = Hash.new
+    results = Hash.new()
     movements = DeviceMovement.node_names()
     movements.each do |movement|
       if results[movement.node].nil?
-        results[movement.node] = Array.new
+        results[movement.node] = Array.new()
       end
-      results[movement.node].push(Device.find_by_bluetooth_id(DeviceMovement.current_devices(movement.node).first.device_bluetooth_id))
+
+      DeviceMovement.current_devices(movement.node).each do |device_movement|
+        device = Device.find_by_bluetooth_id(device_movement.device_bluetooth_id)
+        results[movement.node].push(device)
+      end
     end
 
     respond_to do |format|
