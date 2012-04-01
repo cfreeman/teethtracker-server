@@ -1,6 +1,5 @@
 require "spec_helper"
 
-
 describe Device do
     it "can be instantiated" do
       Device.new.should be_an_instance_of(Device)

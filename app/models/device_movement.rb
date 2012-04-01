@@ -6,6 +6,13 @@ class DeviceMovement < ActiveRecord::Base
   end
 
   def self.node_names()
-    DeviceMovement.select("node").group("node")
+    movements = DeviceMovement.select("node").group("node")
+    node_names = Array.new()
+    movements.each do |movement|
+      node_names.push(movement.node)
+    end
+
+    # Return the node names.
+    node_names
   end
 end

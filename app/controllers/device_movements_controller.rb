@@ -11,15 +11,15 @@ class DeviceMovementsController < ApplicationController
 
   def currently_at
     results = Hash.new()
-    movements = DeviceMovement.node_names()
-    movements.each do |movement|
-      if results[movement.node].nil?
-        results[movement.node] = Array.new()
+    node_names = DeviceMovement.node_names()
+    node_names.each do |node_name|
+      if results[node_name].nil?
+        results[node_name] = Array.new()
       end
 
-      DeviceMovement.current_devices(movement.node).each do |device_movement|
+      DeviceMovement.current_devices(node_name).each do |device_movement|
         device = Device.find_by_bluetooth_id(device_movement.device_bluetooth_id)
-        results[movement.node].push(device)
+        results[node_name].push(device)
       end
     end
 
@@ -35,7 +35,7 @@ class DeviceMovementsController < ApplicationController
 
   def station1
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hello. This is Kansas City calling. We have a little story that we would like to tell you.', :voice => 'man'
+      r.Say 'Hello. You have arrived at station 1', :voice => 'man'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
@@ -48,7 +48,7 @@ class DeviceMovementsController < ApplicationController
 
   def station2
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'oh-no! Something else has happened!', :voice => 'woman'
+      r.Say 'Hello. You have arrived at station 2', :voice => 'man'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
@@ -61,7 +61,33 @@ class DeviceMovementsController < ApplicationController
 
   def station3
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'oh-no! Something else has happened!', :voice => 'woman'
+      r.Say 'Hello. You have arrived at station 3', :voice => 'man'
+      r.Dial :callerId => '+19138151163' do |d|
+        d.Client 'Jenny'
+      end
+    end
+
+    respond_to do |format|
+      format.all {render :xml => @response.text }
+    end
+  end
+
+  def station4
+    @response = Twilio::TwiML::Response.new do |r|
+      r.Say 'Hello. You have arrived at station 4', :voice => 'man'
+      r.Dial :callerId => '+19138151163' do |d|
+        d.Client 'Jenny'
+      end
+    end
+
+    respond_to do |format|
+      format.all {render :xml => @response.text }
+    end
+  end
+
+  def station5
+    @response = Twilio::TwiML::Response.new do |r|
+      r.Say 'Hello. You have arrived at station 5', :voice => 'man'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
@@ -86,14 +112,14 @@ class DeviceMovementsController < ApplicationController
     account_sid = 'AC31e6c16f74a6493da8725101e602d072'
     auth_token = '4617d77a1eef5cf370bb984df416c679'
 
-    unless device.nil?
+    unless device.nil? or params[:type] == :departure
       # set up a client to talk to the Twilio REST API
       client = Twilio::REST::Client.new account_sid, auth_token
 
       client.account.calls.create(
         :from => '+19138151163',
         :to => device.international_device_number,
-        :url => root_url + 'station1'
+        :url => root_url + params[:node]
       )
     end
 
