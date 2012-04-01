@@ -15,7 +15,9 @@ describe Device do
     it "should have a unique bluetooth id" do
       device = Device.new
       device.bluetooth_id = "foo"
+      device.should be_valid
       device.save
+
       device2 = Device.new
       device2.bluetooth_id = "foo"
       device2.save.should eq false
