@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/device_spec.rb" afterPath="$PROJECT_DIR$/spec/models/device_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/device_movement.rb" afterPath="$PROJECT_DIR$/app/models/device_movement.rb" />
     </list>
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device_movement.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="device_movement.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="1" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.024311183">
               <folding />
             </state>
           </provider>
@@ -71,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device_movements_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="device_movements_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="7" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.6904762">
+            <state line="102" column="30" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,10 +112,10 @@
         <option value="$PROJECT_DIR$/test/unit/device_test.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/../../../OpenSHAPA/code/openshapa/src/site/resources/snapshot.rb" />
-        <option value="$PROJECT_DIR$/app/models/device_movement.rb" />
         <option value="$PROJECT_DIR$/spec/models/device_movement_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/device_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/device_movement.rb" />
       </list>
     </option>
   </component>
@@ -901,16 +899,6 @@
         <state line="38" column="5" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="44" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" />
@@ -930,7 +918,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="7" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.6904762">
+        <state line="102" column="30" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.024311183">
           <folding />
         </state>
       </provider>
