@@ -72,7 +72,7 @@
       <file leaf-file-name="device_movements_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="93" selection-start="2501" selection-end="2501" vertical-scroll-proportion="0.07460318">
+            <state line="123" column="4" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.5714286">
               <folding />
             </state>
           </provider>
@@ -904,19 +904,9 @@
         <state line="22" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/device_movement.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="43" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="44" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
@@ -924,9 +914,21 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="44" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="93" selection-start="2501" selection-end="2501" vertical-scroll-proportion="0.07460318">
+        <state line="123" column="4" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.5714286">
           <folding />
         </state>
       </provider>

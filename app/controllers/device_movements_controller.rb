@@ -112,16 +112,16 @@ class DeviceMovementsController < ApplicationController
     account_sid = 'AC31e6c16f74a6493da8725101e602d072'
     auth_token = '4617d77a1eef5cf370bb984df416c679'
 
-    unless device.nil?
+
       # set up a client to talk to the Twilio REST API
       client = Twilio::REST::Client.new account_sid, auth_token
 
       client.account.calls.create(
         :from => '+19138151163',
-        :to => params[:number],
+        :to => '+61' + params[:number],
         :url => root_url + params[:node]
       )
-    end
+
 
     redirect_to(:controller => "device_movements", :action => "index")
   end
