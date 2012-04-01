@@ -7,10 +7,10 @@ Bluetracker::Application.routes.draw do
   match 'clear-database' => "devices#clear_database", :as => :clear_database
   match 'currently_at' => 'device_movements#currently_at', :as => :currently_at
   match 'station1' => 'device_movements#station1', :as => :station1
-  match 'station2' => 'device_movements#station1', :as => :station2
-  match 'station3' => 'device_movements#station1', :as => :station3
-  match 'station4' => 'device_movements#station1', :as => :station4
-  match 'station5' => 'device_movements#station1', :as => :station5
+  match 'station2' => 'device_movements#station2', :as => :station2
+  match 'station3' => 'device_movements#station3', :as => :station3
+  match 'station4' => 'device_movements#station4', :as => :station4
+  match 'station5' => 'device_movements#station5', :as => :station5
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
