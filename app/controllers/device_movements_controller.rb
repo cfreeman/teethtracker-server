@@ -35,7 +35,7 @@ class DeviceMovementsController < ApplicationController
 
   def station1
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hello. You have arrived at station 1', :voice => 'man'
+      r.Play 'http://teethtracker.heroku.com/call01.mp3'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
@@ -48,7 +48,7 @@ class DeviceMovementsController < ApplicationController
 
   def station2
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hello. You have arrived at station 2', :voice => 'man'
+      r.Play 'http://teethtracker.heroku.com/call02.mp3'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
@@ -61,7 +61,7 @@ class DeviceMovementsController < ApplicationController
 
   def station3
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hello. You have arrived at station 3', :voice => 'man'
+      r.Play 'http://teethtracker.heroku.com/call03.mp3'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
@@ -74,7 +74,7 @@ class DeviceMovementsController < ApplicationController
 
   def station4
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hello. You have arrived at station 4', :voice => 'man'
+      r.Play 'http://teethtracker.heroku.com/call04.mp3'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
@@ -87,7 +87,20 @@ class DeviceMovementsController < ApplicationController
 
   def station5
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hello. You have arrived at station 5', :voice => 'man'
+      r.Play 'http://teethtracker.heroku.com/call05.mp3'
+      r.Dial :callerId => '+19138151163' do |d|
+        d.Client 'Jenny'
+      end
+    end
+
+    respond_to do |format|
+      format.all {render :xml => @response.text }
+    end
+  end
+
+  def station6
+    @response = Twilio::TwiML::Response.new do |r|
+      r.Play 'http://teethtracker.heroku.com/call06.mp3'
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Jenny'
       end
