@@ -113,7 +113,7 @@ class DeviceMovementsController < ApplicationController
 
   def stationX
     @response = Twilio::TwiML::Response.new do |r|
-      r.Say 'Hello. He is coming for you, if you want to live you need to move to the flag poles. Go. go now.', :voice => 'Man'
+      r.Say 'He is coming for you. If you want to live. You need to move to the flag poles. Go. go now.', :voice => 'Man'
 
       r.Dial :callerId => '+19138151163' do |d|
         d.Client 'Dan'
