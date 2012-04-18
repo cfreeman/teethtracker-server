@@ -1,0 +1,43 @@
+deviceA1:
+  movement_type: arrival
+  node: station1
+  local_device_number: 123
+  created_at: <%= 2.hour.ago.to_s(:db) %>
+
+deviceA2:
+  movement_type: departure
+  node: station1
+  local_device_number: 123
+  created_at: <%= 1.hour.ago.to_s(:db) %>
+
+deviceA3:
+  movement_type: arrival
+  node: station2
+  local_device_number: 123
+  created_at: <%= 5.minutes.ago.to_s(:db) %>
+
+deviceB1:
+  movement_type: arrival
+  node: station1
+  local_device_number: 456
+
+deviceC1:
+  movement_type: arrival
+  node: station1
+
+deviceD1:
+  movement_type: arrival
+  node: station1
+  local_device_number: 789
+  created_at: <%= 2.hour.ago.to_s(:db) %>
+
+deviceD2:
+  movement_type: departure
+  node: station1
+  local_device_number: 789
+  created_at: <%= 1.hour.ago.to_s(:db) %>
+
+
+
+
+

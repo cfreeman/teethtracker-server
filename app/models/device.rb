@@ -9,4 +9,6 @@ class Device < ActiveRecord::Base
       write_attribute(:international_device_number, "+61" + number[1, number.length])
     end
   end
+
+
 end
