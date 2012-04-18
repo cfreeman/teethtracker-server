@@ -54,7 +54,7 @@
       <file leaf-file-name="device_movements_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="0" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.41463414">
+            <state line="186" column="0" selection-start="4716" selection-end="4716" vertical-scroll-proportion="4.5365853">
               <folding />
             </state>
           </provider>
@@ -867,7 +867,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="0" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.41463414">
+        <state line="186" column="0" selection-start="4716" selection-end="4716" vertical-scroll-proportion="4.5365853">
           <folding />
         </state>
       </provider>

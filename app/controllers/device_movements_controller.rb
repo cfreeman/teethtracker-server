@@ -185,7 +185,7 @@ class DeviceMovementsController < ApplicationController
       )
     end
 
-    redirect_to(:controller => "devices", :action => "index")
+    redirect_to(:controller => "device_movements", :action => "device_status")
   end
 
   def create
