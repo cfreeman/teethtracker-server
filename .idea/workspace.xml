@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="363f2545-2bd4-4069-ba6e-f51438f88127" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/device_movements/device_status.html.erb" afterPath="$PROJECT_DIR$/app/views/device_movements/device_status.html.erb" />
     </list>
     <ignored path="bluetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device_status.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="device_status.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/device_movements/device_status.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -52,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device_movements_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="device_movements_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="41" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="171" column="0" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.41463414">
               <folding />
             </state>
           </provider>
@@ -97,8 +96,8 @@
         <option value="$PROJECT_DIR$/app/models/device_movement.rb" />
         <option value="$PROJECT_DIR$/spec/models/device_movement_spec.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/device_movements/device_status.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/device_movements_controller.rb" />
       </list>
     </option>
   </component>
@@ -838,9 +837,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/fixtures/device_movements.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/device_movements/device_status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -848,6 +847,13 @@
     <entry file="file://$PROJECT_DIR$/spec/models/device_movement_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/fixtures/device_movements.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -861,14 +867,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/device_movements_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/device_movements/device_status.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="171" column="0" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.41463414">
           <folding />
         </state>
       </provider>

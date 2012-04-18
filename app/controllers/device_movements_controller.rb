@@ -170,18 +170,20 @@ class DeviceMovementsController < ApplicationController
     @movement.local_device_number = params[:number]
     @movement.save
 
-    # Put your twilio own credentials here
-    account_sid = 'AC31e6c16f74a6493da8725101e602d072'
-    auth_token = '4617d77a1eef5cf370bb984df416c679'
+    unless params[:node] == "station0"
+      # Put your twilio own credentials here
+      account_sid = 'AC31e6c16f74a6493da8725101e602d072'
+      auth_token = '4617d77a1eef5cf370bb984df416c679'
 
-    # set up a client to talk to the Twilio REST API
-    client = Twilio::REST::Client.new account_sid, auth_token
+      # set up a client to talk to the Twilio REST API
+      client = Twilio::REST::Client.new account_sid, auth_token
 
-    client.account.calls.create(
-      :from => '+19138151163',
-      :to => '+61' + params[:number],
-      :url => root_url + params[:node]
-    )
+      client.account.calls.create(
+        :from => '+19138151163',
+        :to => '+61' + params[:number],
+        :url => root_url + params[:node]
+      )
+    end
 
     redirect_to(:controller => "devices", :action => "index")
   end
