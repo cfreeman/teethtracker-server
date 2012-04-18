@@ -1,1 +1,6 @@
-Test
+<h1>Current Status:</h1>
+<ul>
+  <% @devices.each do |device| %>
+  <li><%= device.local_device_number %> arrived at <b><%= device.node %></b> <%= distance_of_time_in_words(device.created_at, Time.now, true)%> ago.</li>
+  <% end %>
+</ul>

@@ -10,12 +10,12 @@ class DeviceMovementsController < ApplicationController
   end
 
   def device_status
-    @movements = DeviceMovement.device_status
+    @devices = DeviceMovement.device_status
 
     respond_to do |format|
       format.html
-      format.json {render :json => @movements}
-      format.xml {render :xml => @movements}
+      format.json {render :json => @devices}
+      format.xml {render :xml => @devices}
     end
   end
 
