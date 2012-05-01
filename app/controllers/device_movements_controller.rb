@@ -109,45 +109,6 @@ class DeviceMovementsController < ApplicationController
     end
   end
 
-  def station6A
-    @response = Twilio::TwiML::Response.new do |r|
-      r.Play 'http://teethtracker.heroku.com/call06A.mp3'
-      r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
-      end
-    end
-
-    respond_to do |format|
-      format.all {render :xml => @response.text }
-    end
-  end
-
-  def station6B
-    @response = Twilio::TwiML::Response.new do |r|
-      r.Play 'http://teethtracker.heroku.com/call06B.mp3'
-      r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
-      end
-    end
-
-    respond_to do |format|
-      format.all {render :xml => @response.text }
-    end
-  end
-
-  def station7
-    @response = Twilio::TwiML::Response.new do |r|
-      r.Play 'http://teethtracker.heroku.com/call07.mp3'
-      r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
-      end
-    end
-
-    respond_to do |format|
-      format.all {render :xml => @response.text }
-    end
-  end
-
   def stationX
     @response = Twilio::TwiML::Response.new do |r|
       r.Say 'He is coming for you. If you want to live. You need to move to the flag poles. Go. go now.', :voice => 'Man'

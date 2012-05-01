@@ -12,9 +12,7 @@ Bluetracker::Application.routes.draw do
   match 'station3' => 'device_movements#station3', :as => :station3
   match 'station4' => 'device_movements#station4', :as => :station4
   match 'station5' => 'device_movements#station5', :as => :station5
-  match 'station6A' => 'device_movements#station6A', :as => :station6A
-  match 'station6B' => 'device_movements#station6B', :as => :station6B
-  match 'station7' => 'device_movements#station7', :as => :station7
+
   match 'stationX' => 'device_movements#stationX', :as => :stationX
 
   # The priority is based upon order of creation:
