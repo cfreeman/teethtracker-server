@@ -44,11 +44,14 @@ class DeviceMovementsController < ApplicationController
     redirect_to(:controller => "device_movements", :action => "index")
   end
 
+  # Authorities - +19138151163
+  # Monster - +18169120641
+
   def station1
     @response = Twilio::TwiML::Response.new do |r|
       r.Play 'http://teethtracker.heroku.com/call01.mp3'
       r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
+        d.Client 'Authorities'
       end
     end
 
@@ -60,8 +63,8 @@ class DeviceMovementsController < ApplicationController
   def station2
     @response = Twilio::TwiML::Response.new do |r|
       r.Play 'http://teethtracker.heroku.com/call02.mp3'
-      r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
+      r.Dial :callerId => '+18169120641' do |d|
+        d.Client 'Monster'
       end
     end
 
@@ -74,7 +77,7 @@ class DeviceMovementsController < ApplicationController
     @response = Twilio::TwiML::Response.new do |r|
       r.Play 'http://teethtracker.heroku.com/call03.mp3'
       r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
+        d.Client 'Authorities'
       end
     end
 
@@ -86,8 +89,8 @@ class DeviceMovementsController < ApplicationController
   def station4
     @response = Twilio::TwiML::Response.new do |r|
       r.Play 'http://teethtracker.heroku.com/call04.mp3'
-      r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
+      r.Dial :callerId => '+18169120641' do |d|
+        d.Client 'Monster'
       end
     end
 
@@ -100,7 +103,7 @@ class DeviceMovementsController < ApplicationController
     @response = Twilio::TwiML::Response.new do |r|
       r.Play 'http://teethtracker.heroku.com/call05.mp3'
       r.Dial :callerId => '+19138151163' do |d|
-        d.Client 'Jenny'
+        d.Client 'Authorities'
       end
     end
 
