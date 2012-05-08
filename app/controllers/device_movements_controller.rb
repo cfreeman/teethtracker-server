@@ -142,8 +142,14 @@ class DeviceMovementsController < ApplicationController
       # set up a client to talk to the Twilio REST API
       client = Twilio::REST::Client.new account_sid, auth_token
 
+      from_number = '+19138151163'
+
+      if params[:node] == "station2" || params[:node] == "station4"
+        from_number = '+18169120641'
+      end
+
       client.account.calls.create(
-        :from => '+19138151163',
+        :from => from_number,
         :to => '+61' + params[:number],
         :url => root_url + params[:node]
       )
